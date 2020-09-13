@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style type="text/css">
+      body {
+        background-color: rgb(200, 200, 200);
+        color: rgb(243, 243, 243);
+        padding: 30px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif,
+          Verdana, sans-serif;
+      }
+      p {
+        padding: 15px;
+        margin: 0px;
+      }
+      p.one {
+        background-color: rgb(10, 10, 10);
+        height: 30px;
+      }
+      p.two {
+        background-image: url('imagen/foto2.jpg');
+        height: 400px;
+        text-align: center;
+      }
+      p.three {
+        background-color: rgb(10, 10, 10);
+        height: 40px;
+      }
+      fieldset {
+        width: 410px;
+        margin-top: 110px;
+        border: 1px solid #0c0c0c;
+        background-color: #0c0c0c;
+        line-height: 1.6em;
+      }
+      .left {
+        float: left;
+        width: 410px;
+        height: 120px;
+      }
+      .right {
+        float: right;
+        width: 310px;
+        height: 120px;
+      }
+      .second {
+        width: 20%;
+        height: 20px;
+        position: relative;
+        top: 15px;
+      }
+      #form {
+        width: 250px;
+        margin: 0 auto;
+        height: 50px;
+      }
+
+      #form p {
+        text-align: center;
+      }
+
+      #form label {
+        font-size: 20px;
+      }
+
+      input[type='radio'] {
+        display: none;
+      }
+
+      label {
+        color: grey;
+      }
+
+      .clasificacion {
+        direction: rtl;
+        unicode-bidi: bidi-override;
+      }
+
+      label:hover,
+      label:hover ~ label {
+        color: orange;
+      }
+
+      input[type='radio']:checked ~ label {
+        color: orange;
+      }
+    </style>
+  </head>
+  <body background="../images/f1.jpg">
+    <p class="one">Metallic Structures.NET</p>
+    <div align="center">
+      <div style="float: left">
+        <fieldset>
+          <p>
+            somos una empresa con dedicacion en la industria de costruccion a
+            consumo masivo. nuestro objetivo es el asesoramiento y
+            acompañamiento de proyectos tangibles para la vida de los clientes,
+            asi como sus empresas u hogares.
+          </p>
+          <p>¿Que te parece nuestra atencion?</p>
+          <textarea name="comments" cols="50" rows="12">
+  comentarios...</textarea
+          >
+        </fieldset>
+      </div>
+      <div style="float: right">
+        <fieldset>
+          <img src="imagen/imag3.png" width="500" height="300" />
+          <div style="float: left">
+            <form>
+              <p class="clasificacion">
+                <input
+                  id="radio1"
+                  type="radio"
+                  name="estrellas"
+                  value="5"
+                /><!--
+    --><label for="radio1">★</label
+                ><!--
+    --><input id="radio2" type="radio" name="estrellas" value="4" /><!--
+    --><label for="radio2">★</label
+                ><!--
+    --><input id="radio3" type="radio" name="estrellas" value="3" /><!--
+    --><label for="radio3">★</label
+                ><!--
+    --><input id="radio4" type="radio" name="estrellas" value="2" /><!--
+    --><label for="radio4">★</label
+                ><!--
+    --><input id="radio5" type="radio" name="estrellas" value="1" /><!--
+    --><label for="radio5">★</label>
+              </p>
+            </form>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+    <div class="second">
+      <p>
+        <a href="../actividad/preyecto1.html">
+          <input type="button" value="Regresar"
+        /></a>
+      </p>
+    </div>
+  </body>
+</html>
