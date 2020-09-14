@@ -6,8 +6,13 @@ body{
     width: 100%;
     font-family: "lato";
 }
+
+.texto-color{
+  color: #111;
+}
 .input{
   width: 100%;
+  color: #111;
 }    
 .parallax-completo{
 width: 100%;
@@ -69,4 +74,14 @@ align-items: center;
 }
 .bod{  color: white; padding: 20px; text-align: center; }
     
-        
+.contenedor{
+  position:relative;
+  display:inline-block;
+  text-align: center;
+} 
+.texto-encima{
+  position:absolute;
+  top:10px;
+  left: 10px;
+  color: rgb(0, 0, 0);
+} 

@@ -1,0 +1,29 @@
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  background-color: #000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: rgb(255, 255, 255);
+}
+
+
+.navbar-right li a {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.navbar-right li.active a {
+  background-color:#a11717;
+}
+
+
+
