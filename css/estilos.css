@@ -4,7 +4,7 @@
 }
 body{
     width: 100%;
-    font-family: "lato";
+    font-family: "";
 }
 
 .texto-color{
@@ -28,8 +28,8 @@ align-items: center;
 }
 .texto-hero{
  background: #111;
- padding: 18px;
- width: 320px;
+ padding: 40px;
+ width: 400px;
  text-align: center;
  color: #fff;
 }
@@ -81,7 +81,10 @@ align-items: center;
 } 
 .texto-encima{
   position:absolute;
+  background: #111;
+
+ text-align: center;
   top:10px;
   left: 10px;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 } 

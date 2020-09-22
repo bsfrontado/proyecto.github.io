@@ -8,27 +8,22 @@
       body {
         background-color: rgb(200, 200, 200);
         color: rgb(243, 243, 243);
-        padding: 30px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif,
-          Verdana, sans-serif;
+        
       }
-      p {
-        padding: 15px;
-        margin: 0px;
+      h1{
+        background: rgb(10, 10, 10);
+        width: 2000px;
+        height: 50px;
+        font-size: 20px;
       }
-      p.one {
-        background-color: rgb(10, 10, 10);
-        height: 30px;
+      .caja{
+        position:absolute;
+        top:0;
+        bottom: 10;
+        right: 0;
+        left: 0px;
       }
-      p.two {
-        background-image: url('imagen/foto2.jpg');
-        height: 400px;
-        text-align: center;
-      }
-      p.three {
-        background-color: rgb(10, 10, 10);
-        height: 40px;
-      }
+      
       fieldset {
         width: 410px;
         margin-top: 110px;
@@ -36,14 +31,15 @@
         background-color: #0c0c0c;
         line-height: 1.6em;
       }
-      .left {
-        float: left;
-        width: 410px;
-        height: 120px;
-      }
+     
       .right {
         float: right;
         width: 310px;
+        height: 120px;
+      }
+      .left {
+        float: left;
+        width: 410px;
         height: 120px;
       }
       .second {
@@ -51,6 +47,13 @@
         height: 20px;
         position: relative;
         top: 15px;
+      }
+      .two {
+        width: 30%;
+        height: 30px;
+        position: relative;
+        top: 15px;
+        left: 80px;
       }
       #form {
         width: 250px;
@@ -69,7 +72,6 @@
       input[type='radio'] {
         display: none;
       }
-
       label {
         color: grey;
       }
@@ -90,7 +92,7 @@
     </style>
   </head>
   <body background="../images/f1.jpg">
-    <p class="one">Metallic Structures.NET</p>
+    <h1 class="caja">Metallic Structures.NET</h1>
     <div align="center">
       <div style="float: left">
         <fieldset>
@@ -132,6 +134,27 @@
     --><input id="radio5" type="radio" name="estrellas" value="1" /><!--
     --><label for="radio5">★</label>
               </p>
+            <p class="clasificacion">
+              <input
+                id="radio5"
+                type="radio"
+                name="estrella"
+                value="5"
+              /><!--s
+  --><label for="radio5">★</label
+              ><!--
+  --><input id="radio6" type="radio" name="estrella" value="9" /><!--
+  --><label for="radio6">★</label
+              ><!--
+  --><input id="radio7" type="radio" name="estrella" value="8" /><!--
+  --><label for="radio7">★</label
+              ><!--
+  --><input id="radio8" type="radio" name="estrella" value="7" /><!--
+  --><label for="radio8">★</label
+              ><!--
+  --><input id="radio9" type="radio" name="estrella" value="6" /><!--
+  --><label for="radio9">★</label>
+            </p>
             </form>
           </div>
         </fieldset>
@@ -144,5 +167,11 @@
         /></a>
       </p>
     </div>
+    <div class="two">
+      <p>
+        <a href="https://accounts.google.com/AccountChooser/signinchooser?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&flowName=GlifWebSignIn&flowEntry=AccountChooser" target="blank">
+          <input type="button" value="Confirmar"
+        /></a>
+      </p>
   </body>
 </html>
