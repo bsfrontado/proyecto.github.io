@@ -11,14 +11,21 @@ h1, h2, h3, h4, h5, h6 {
   color: rgb(255, 255, 255);
 }
 
-
+.nombre{
+  color: rgb(219, 43, 43);
+  font-size: 18px;
+  font-weight: 600;
+  padding-top: 30px;
+  position: relative;
+  top: 0;
+}
 .navbar-right li a {
   color: rgb(219, 43, 43);
   text-transform:uppercase;
   font-size: 18px;
   font-weight: 600;
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 25px;
 }
 
 .navbar-right li.active a {
@@ -34,3 +41,4 @@ h1, h2, h3, h4, h5, h6 {
     display:
       inline-block;
 }
+
