@@ -3,7 +3,6 @@
     <head>
         <meta charset="utf-8">
         <title>METALLIC STRUCTURE.NET</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <link href="css/main.css" rel="stylesheet">
       </head>
 <head>
@@ -34,11 +33,14 @@ alert("Confirmacion exitosa");
           <a class="navbar-brand" href="index.html">
           </a>
         </div class="collapse ">
-        <b class="nombre">METALLIC STRUCTURE.NET</b>
+        <b class="nombre">METALLIC STRUCTURE.NET <img src="./imagen/notificaciones.png" alt=""></b> 
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
-            
+            <input type="checkbox" id="btn-menu"> 
+            <label for="btn-menu"><img src="./imagen/ico.png" alt=""></label>
+            <nav class="menu">
+              <ul>
             <li class="scroll"><a href="#mision">Mision</a></li>
             <li class="scroll"><a href="#video">Historia</a></li>
             <li class="scroll"><a href="#vision">Vision</a></li>
@@ -46,9 +48,12 @@ alert("Confirmacion exitosa");
             <li class="ecroll"><a href="#opciones">Opcion de registro</a></li>
             <li class="scroll"><a href="#servicio">Servicios</a></li>
             <li class="scroll"><a href="#contacto">Contacto</a></li>
+            </ul>
+          </nav>
           </div>
         </div>
       </div>
+    </header>
    </section>
     <header class="parallax-completo">
         <div class="texto-hero">
@@ -114,7 +119,7 @@ Disminución en precios de productos y Servicios.</h4>
       <br><br><br>
         <fieldset>
             INGRESE SUS DATOS AQUI COMO USUARIO:
-            
+            <br>
               <label class="title" for="name"> usuario:</label>
               <input  class="input" type="text" name="name" id="name" />
               <label class="title" for="name"> contraseña:</label>
